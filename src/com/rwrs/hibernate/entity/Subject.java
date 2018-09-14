@@ -20,6 +20,12 @@ public class Subject {
 	@Column(name="user_name")
 	private String userName;
 	
+	@Column(name="password")
+	private String password;
+
+	@Column(name="email")
+	private String email;
+		
 
 	public Subject() {
 		
@@ -42,6 +48,26 @@ public class Subject {
 	public void setUserName(String userName) {
 		this.userName = userName;
 	}
+	
+	public String getPassword() {
+		return password;
+	}
+
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+
+	public String getEmail() {
+		return email;
+	}
+
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
 
 
 

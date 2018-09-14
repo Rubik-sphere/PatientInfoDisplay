@@ -115,7 +115,7 @@ public class HibernateDataDaoSupport
         {
             // close the Hibernate Session
             sess.close(); 
-        	HibernateDataUtil.shutdown();
+//        	HibernateDataUtil.shutdown();
         }
 
         return object;
@@ -161,7 +161,7 @@ public class HibernateDataDaoSupport
         {
             // close the Hibernate Session
         	sess.close();
-        	HibernateDataUtil.shutdown();
+//        	HibernateDataUtil.shutdown();
         }
 
         return object;
@@ -259,7 +259,7 @@ public class HibernateDataDaoSupport
         {
             // close the Hibernate Session
             sess.close();
-        	HibernateDataUtil.shutdown();
+//        	HibernateDataUtil.shutdown();
         }
 
         return objList;
@@ -329,7 +329,7 @@ public class HibernateDataDaoSupport
         {
             // close the Hibernate Session
             sess.close();
-        	HibernateDataUtil.shutdown();
+//        	HibernateDataUtil.shutdown();
         }
 
         return objList;
@@ -402,7 +402,7 @@ public class HibernateDataDaoSupport
         {
             // close the Hibernate Session
             sess.clear();
-        	HibernateDataUtil.shutdown();
+//        	HibernateDataUtil.shutdown();
         }
 
         return sr;
@@ -471,7 +471,7 @@ public class HibernateDataDaoSupport
         {
             // close the Hibernate Session
            sess.close();
-        	HibernateDataUtil.shutdown();
+//        	HibernateDataUtil.shutdown();
         }
 
         return objList;
@@ -527,7 +527,7 @@ public class HibernateDataDaoSupport
         {
             sess.close();
         	// close the Hibernate Session
-            HibernateDataUtil.shutdown();
+//            HibernateDataUtil.shutdown();
         }
         return result;
 
@@ -576,7 +576,7 @@ public class HibernateDataDaoSupport
         {
             // close the Hibernate Session
             sess.close();
-        	HibernateDataUtil.shutdown();
+//        	HibernateDataUtil.shutdown();
         }
         return result;
 
@@ -596,7 +596,7 @@ public class HibernateDataDaoSupport
         try
         {
                   
-       
+           
             sess = HibernateDataUtil.getSessionFactory().openSession();
           
         	
@@ -619,7 +619,7 @@ public class HibernateDataDaoSupport
         {
             // close the Hibernate Session
             sess.close();
-        	HibernateDataUtil.shutdown();
+        	//HibernateDataUtil.shutdown();
            
         
         }
@@ -662,7 +662,7 @@ public class HibernateDataDaoSupport
         finally
         {
            
-        	HibernateDataUtil.shutdown();
+//        	HibernateDataUtil.shutdown();
            
         
         }
@@ -754,7 +754,7 @@ public class HibernateDataDaoSupport
         finally {
             // close the Hibernate Session
             sess.close();
-        	HibernateDataUtil.shutdown();
+//        	HibernateDataUtil.shutdown();
         }
 
         return result;
@@ -793,7 +793,7 @@ public class HibernateDataDaoSupport
         finally {
             // close the Hibernate Session
             sess.close();
-        	HibernateDataUtil.shutdown();
+//        	HibernateDataUtil.shutdown();
         }
 
     	
@@ -842,7 +842,7 @@ public class HibernateDataDaoSupport
         finally {
             // close the Hibernate Session
             sess.close();
-        	HibernateDataUtil.shutdown();
+//        	HibernateDataUtil.shutdown();
         }
 
     	
@@ -885,7 +885,7 @@ public class HibernateDataDaoSupport
         finally {
             // close the Hibernate Session
             sess.close();
-        	HibernateDataUtil.shutdown();
+//        	HibernateDataUtil.shutdown();
         }
        
        
@@ -933,7 +933,7 @@ public class HibernateDataDaoSupport
 			
 		}finally {
 			 sess.close();
-	         HibernateDataUtil.shutdown();
+//	         HibernateDataUtil.shutdown();
 		
 		}
 					
